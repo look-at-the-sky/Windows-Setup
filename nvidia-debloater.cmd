@@ -1,3 +1,4 @@
+@echo off
 pause
 del Display.Driver\NvTelemetry64.dll
 echo 123 > Display.Driver\NvTelemetry64.dll
