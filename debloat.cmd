@@ -49,6 +49,6 @@ rmdir /s /q %WINDIR%\FileManager &:: SkyDrive aka OneDrive
 rmdir /s /q %WINDIR%\ADFS &:: Server Feature
 rmdir /s /q %WINDIR%\TAPI &:: Telephony API
 
-rmdir /s /q %ProgramFiles%\"Windows Defender"
-rmdir /s /q %ProgramFiles%\"Internet Explorer"
+rmdir /s /q "%ProgramFiles%\Windows Defender"
+rmdir /s /q "%ProgramFiles%\Internet Explorer"
 pause
