@@ -51,4 +51,11 @@ rmdir /s /q %WINDIR%\TAPI &:: Telephony API
 
 rmdir /s /q "%ProgramFiles%\Windows Defender"
 rmdir /s /q "%ProgramFiles%\Internet Explorer"
+rmdir /s /q "%ProgramFiles%\Windows Journal"
+rmdir /s /q "%ProgramFiles%\Windows Mail"
+rmdir /s /q "%ProgramFiles%\Windows Media Player"
+
+rmdir /s /q "%ProgramFiles(x86)%\Windows Mail"
+rmdir /s /q "%ProgramFiles(x86)%\Internet Explorer"
+rmdir /s /q "%ProgramFiles(x86)%\Windows Defender"
 pause
