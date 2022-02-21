@@ -58,4 +58,5 @@ rmdir /s /q "%ProgramFiles%\Windows Media Player"
 rmdir /s /q "%ProgramFiles(x86)%\Windows Mail"
 rmdir /s /q "%ProgramFiles(x86)%\Internet Explorer"
 rmdir /s /q "%ProgramFiles(x86)%\Windows Defender"
+sc config "Spooler" start= disabled
 pause
