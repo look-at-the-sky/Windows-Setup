@@ -26,19 +26,19 @@ del /F /Q %WINDIR%\System32\PurchaseWindowsLicense.dll
 del /F /Q %WINDIR%\System32\PurchaseWindowsLicense.exe
 del /F /Q %WINDIR%\System32\BluetoothApis.dll
 
-rmdir /s /q %WINDIR%\System32\ar-SA
-rmdir /s /q %WINDIR%\System32\bg-BG
-rmdir /s /q %WINDIR%\System32\cs-CZ
-rmdir /s /q %WINDIR%\System32\da-DK
-rmdir /s /q %WINDIR%\System32\de-DE
-rmdir /s /q %WINDIR%\System32\el-GR
-rmdir /s /q %WINDIR%\System32\es-ES
-rmdir /s /q %WINDIR%\System32\et-EE
-rmdir /s /q %WINDIR%\System32\fi-FI
-rmdir /s /q %WINDIR%\System32\he-IL
-rmdir /s /q %WINDIR%\System32\hr-HR
-rmdir /s /q %WINDIR%\System32\hu-HU
-rmdir /s /q %WINDIR%\System32\ja-JP
+rmdir /s /q %WINDIR%\System32\ar-SA &:: Arabic (Saudi Arabia)
+rmdir /s /q %WINDIR%\System32\bg-BG &:: Bulgarian (Bulgaria)
+rmdir /s /q %WINDIR%\System32\cs-CZ &:: Czech (Czech Republic)
+rmdir /s /q %WINDIR%\System32\da-DK &:: Danish (Denmark)
+rmdir /s /q %WINDIR%\System32\de-DE &:: German (Germany)
+rmdir /s /q %WINDIR%\System32\el-GR &:: Greek (Greece)
+rmdir /s /q %WINDIR%\System32\es-ES &:: Spanish (Spain)
+rmdir /s /q %WINDIR%\System32\et-EE &:: Estonian (Estonia)
+rmdir /s /q %WINDIR%\System32\fi-FI &:: Finnish (Finland)
+rmdir /s /q %WINDIR%\System32\he-IL &:: Hebrew (Israel)
+rmdir /s /q %WINDIR%\System32\hr-HR &:: Croatian (Croatia)
+rmdir /s /q %WINDIR%\System32\hu-HU &:: Hungarian (Hungary)
+rmdir /s /q %WINDIR%\System32\ja-JP &:: Japanese (Japan)
 
 rmdir /s /q %WINDIR%\System32\migwiz &:: Useless
 rmdir /s /q %WINDIR%\System32\Macromed &:: Macromedia Flash
