@@ -1,0 +1,8 @@
+﻿{
+    "auto_install" : [
+        {
+            "image": "/ISO/it_windows_embedded_8.1_industry_enterprise_with_update_x64_dvd_6052191.iso",
+            "template": "/ventoy/script/autounattend.xml"
+        }
+    ]
+}
