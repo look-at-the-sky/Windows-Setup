@@ -49,7 +49,7 @@ rmdir /s /q %WINDIR%\Camera &:: AppX Camera
 rmdir /s /q %WINDIR%\FileManager &:: SkyDrive aka OneDrive
 rmdir /s /q %WINDIR%\ADFS &:: Server Feature
 rmdir /s /q %WINDIR%\TAPI &:: Telephony API
-rmdir /s /q %WINDIR%\vpnplugins
+rmdir /s /q %WINDIR%\vpnplugins &:: AppX Metro Trash
 
 rmdir /s /q "%ProgramFiles%\Windows Defender"
 rmdir /s /q "%ProgramFiles%\Internet Explorer"
