@@ -42,12 +42,14 @@ rmdir /s /q %WINDIR%\System32\ja-JP &:: Japanese (Japan)
 
 rmdir /s /q %WINDIR%\System32\migwiz &:: Useless
 rmdir /s /q %WINDIR%\System32\Macromed &:: Macromedia Flash
+
 rmdir /s /q %WINDIR%\Speech &:: Speech Synthesis
 rmdir /s /q %WINDIR%\WinStore &:: Windows Store
 rmdir /s /q %WINDIR%\Camera &:: AppX Camera
 rmdir /s /q %WINDIR%\FileManager &:: SkyDrive aka OneDrive
 rmdir /s /q %WINDIR%\ADFS &:: Server Feature
 rmdir /s /q %WINDIR%\TAPI &:: Telephony API
+rmdir /s /q %WINDIR%\vpnplugins
 
 rmdir /s /q "%ProgramFiles%\Windows Defender"
 rmdir /s /q "%ProgramFiles%\Internet Explorer"
