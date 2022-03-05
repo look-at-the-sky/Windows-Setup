@@ -27,6 +27,8 @@ del /F /S /Q %WINDIR%\*geolocation*
 del /F /S /Q %WINDIR%\*smartcard*
 del /F /S /Q %WINDIR%\*winstore*
 del /F /S /Q %WINDIR%\*vpnplugins*
+del /F /S /Q %WINDIR%\*skydrive*
+del /F /S /Q %WINDIR%\*biometric*
 
 rmdir /s /q %WINDIR%\System32\ar-SA &:: Arabic (Saudi Arabia)
 rmdir /s /q %WINDIR%\System32\bg-BG &:: Bulgarian (Bulgaria)
