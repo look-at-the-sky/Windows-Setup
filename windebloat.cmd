@@ -1,3 +1,4 @@
+pause
 del /F /Q %WINDIR%\System32\wlidsvc.dll &:: Microsoft Account
 del /F /Q %WINDIR%\System32\AxInstSv.dll &:: ActiveX
 del /F /Q %WINDIR%\System32\AxInstUI.exe &:: ActiveX
@@ -19,12 +20,13 @@ del /F /Q %WINDIR%\System32\SnippingTool.exe &:: Useless
 del /F /Q %WINDIR%\System32\SoundRecorder.exe &:: Useless
 del /F /Q %WINDIR%\System32\WSCollect.exe &:: Windows Store logs
 del /F /Q %WINDIR%\System32\WSClient.dll &:: Windows Store Licence
-del /F /Q %WINDIR%\System32\Windows.Devices.SmartCards.dll
-del /F /Q %WINDIR%\System32\Windows.Devices.Geolocation.dll
-del /F /Q %WINDIR%\System32\Windows.Devices.Bluetooth.dll
 del /F /Q %WINDIR%\System32\PurchaseWindowsLicense.dll
 del /F /Q %WINDIR%\System32\PurchaseWindowsLicense.exe
-del /F /Q %WINDIR%\System32\BluetoothApis.dll
+del /F /S /Q %WINDIR%\*bluetooth*
+del /F /S /Q %WINDIR%\*geolocation*
+del /F /S /Q %WINDIR%\*smartcard*
+del /F /S /Q %WINDIR%\*winstore*
+del /F /S /Q %WINDIR%\*vpnplugins*
 
 rmdir /s /q %WINDIR%\System32\ar-SA &:: Arabic (Saudi Arabia)
 rmdir /s /q %WINDIR%\System32\bg-BG &:: Bulgarian (Bulgaria)
@@ -61,4 +63,3 @@ rmdir /s /q "%ProgramFiles(x86)%\Windows Mail"
 rmdir /s /q "%ProgramFiles(x86)%\Internet Explorer"
 rmdir /s /q "%ProgramFiles(x86)%\Windows Defender"
 sc config "Spooler" start= disabled
-pause
