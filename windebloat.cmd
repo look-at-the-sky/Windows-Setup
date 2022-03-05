@@ -43,6 +43,28 @@ rmdir /s /q %WINDIR%\System32\he-IL &:: Hebrew (Israel)
 rmdir /s /q %WINDIR%\System32\hr-HR &:: Croatian (Croatia)
 rmdir /s /q %WINDIR%\System32\hu-HU &:: Hungarian (Hungary)
 rmdir /s /q %WINDIR%\System32\ja-JP &:: Japanese (Japan)
+rmdir /s /q %WINDIR%\System32\fr-FR
+rmdir /s /q %WINDIR%\System32\ko-KR
+rmdir /s /q %WINDIR%\System32\lt-LT
+rmdir /s /q %WINDIR%\System32\lv-LV
+rmdir /s /q %WINDIR%\System32\nl-NL
+rmdir /s /q %WINDIR%\System32\pl-PL
+rmdir /s /q %WINDIR%\System32\nb-NO
+rmdir /s /q %WINDIR%\System32\pt-BR
+rmdir /s /q %WINDIR%\System32\pt-PT
+rmdir /s /q %WINDIR%\System32\ro-RO
+rmdir /s /q %WINDIR%\System32\ru-RU
+rmdir /s /q %WINDIR%\System32\sk-SK
+rmdir /s /q %WINDIR%\System32\sl-SI
+rmdir /s /q %WINDIR%\System32\sr-Latn-CS
+rmdir /s /q %WINDIR%\System32\sr-Latn-RS
+rmdir /s /q %WINDIR%\System32\sv-SE
+rmdir /s /q %WINDIR%\System32\th-TH
+rmdir /s /q %WINDIR%\System32\tr-TR
+rmdir /s /q %WINDIR%\System32\uk-UA
+rmdir /s /q %WINDIR%\System32\zh-CN
+rmdir /s /q %WINDIR%\System32\zh-HK
+rmdir /s /q %WINDIR%\System32\zh-TW
 
 rmdir /s /q %WINDIR%\System32\migwiz &:: Useless
 rmdir /s /q %WINDIR%\System32\Macromed &:: Macromedia Flash
