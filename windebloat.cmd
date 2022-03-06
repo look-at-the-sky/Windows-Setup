@@ -29,6 +29,7 @@ del /F /S /Q %WINDIR%\*winstore*
 del /F /S /Q %WINDIR%\*vpnplugins*
 del /F /S /Q %WINDIR%\*skydrive*
 del /F /S /Q %WINDIR%\*biometric*
+del /F /S /Q %WINDIR%\*remotedesktop*
 
 rmdir /s /q %WINDIR%\System32\ar-SA &:: Arabic (Saudi Arabia)
 rmdir /s /q %WINDIR%\System32\bg-BG &:: Bulgarian (Bulgaria)
