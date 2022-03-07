@@ -69,6 +69,7 @@ rmdir /s /q %WINDIR%\System32\zh-TW
 
 rmdir /s /q %WINDIR%\System32\migwiz &:: Useless
 rmdir /s /q %WINDIR%\System32\Macromed &:: Macromedia Flash
+rmdir /s /q %WINDIR%\System32\Speech &:: Speech Synthesis
 
 rmdir /s /q %WINDIR%\Speech &:: Speech Synthesis
 rmdir /s /q %WINDIR%\WinStore &:: Windows Store
