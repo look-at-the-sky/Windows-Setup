@@ -1,3 +1,4 @@
+:: This script needs to be executed as TrustedInstaller
 pause
 taskkill /f /IM explorer.exe
 del /F /Q %WINDIR%\System32\wlidsvc.dll &:: Microsoft Account
