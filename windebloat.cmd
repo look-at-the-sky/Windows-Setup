@@ -1,4 +1,5 @@
 pause
+taskkill /f /IM explorer.exe
 del /F /Q %WINDIR%\System32\wlidsvc.dll &:: Microsoft Account
 del /F /Q %WINDIR%\System32\AxInstSv.dll &:: ActiveX
 del /F /Q %WINDIR%\System32\AxInstUI.exe &:: ActiveX
@@ -89,3 +90,4 @@ rmdir /s /q "%ProgramFiles(x86)%\Windows Mail"
 rmdir /s /q "%ProgramFiles(x86)%\Internet Explorer"
 rmdir /s /q "%ProgramFiles(x86)%\Windows Defender"
 sc config "Spooler" start= disabled
+shutdown /r /t 5
