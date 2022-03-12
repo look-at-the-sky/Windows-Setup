@@ -24,6 +24,14 @@ del /F /Q %WINDIR%\System32\WSCollect.exe &:: Windows Store logs
 del /F /Q %WINDIR%\System32\WSClient.dll &:: Windows Store Licence
 del /F /Q %WINDIR%\System32\PurchaseWindowsLicense.dll
 del /F /Q %WINDIR%\System32\PurchaseWindowsLicense.exe
+del /F /Q %WINDIR%\System32\mspaint.exe
+del /F /Q %WINDIR%\System32\msra.exe
+del /F /Q %WINDIR%\System32\msrahc.dll
+del /F /Q %WINDIR%\System32\mstsc.exe
+del /F /Q %WINDIR%\System32\mstscax.dll
+del /F /Q %WINDIR%\System32\mobsync.exe
+del /F /Q %WINDIR%\System32\Narrator.exe
+
 del /F /S /Q %WINDIR%\*bluetooth*
 del /F /S /Q %WINDIR%\*geolocation*
 del /F /S /Q %WINDIR%\*smartcard*
