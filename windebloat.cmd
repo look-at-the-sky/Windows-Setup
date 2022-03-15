@@ -29,10 +29,10 @@ del /F /Q %WINDIR%\System32\msrahc.dll
 del /F /Q %WINDIR%\System32\mstsc.exe
 del /F /Q %WINDIR%\System32\mstscax.dll
 del /F /Q %WINDIR%\System32\mobsync.exe
-del /F /Q %WINDIR%\System32\Narrator.exe
-del /F /Q %WINDIR%\System32\StikyNot.exe
-del /F /Q %WINDIR%\System32\psr.exe
-del /F /Q %WINDIR%\System32\LocationApi.dll
+del /F /Q %WINDIR%\System32\Narrator.exe &:: Never Used
+del /F /Q %WINDIR%\System32\StikyNot.exe &:: Useless
+del /F /Q %WINDIR%\System32\psr.exe &:: Never Used
+del /F /Q %WINDIR%\System32\LocationApi.dll &:: Windows Location API
 
 del /F /S /Q %WINDIR%\*bluetooth*
 del /F /S /Q %WINDIR%\*geolocation*
