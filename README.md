@@ -8,5 +8,5 @@
 6. Install [simplewall](https://github.com/henrypp/simplewall)
 7. Install Windows Updates using [WSUS Offline](https://www.wsusoffline.net)
 8. Remove unwanted updates<br>**HINT:** [Ancile](https://bitbucket.org/ancile_development/ancile/downloads), [This thing](https://gist.github.com/kulbakin/4e1cf9fd40e950886dde)
-9. Run windebloat.cmd (requires TrustedInstaller privileges)
+9. Run windebloat.cmd (requires [TrustedInstaller](https://github.com/mspaintmsi/superUser) privileges)
 10. [TO BE CONTINUED]
